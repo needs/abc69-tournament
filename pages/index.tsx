@@ -71,7 +71,7 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <p className="text-gray-600">Vente d'alcool interdite aux mineurs</p>
+      <p className="text-gray-600">Vente d&apos;alcool interdite aux mineurs</p>
     </div>
   );
 }
