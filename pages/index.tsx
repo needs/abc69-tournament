@@ -49,8 +49,8 @@ export default function Home() {
   const toEuro = (value: number) => new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(value)
 
   return (
-    <div className="flex flex-col items-center w-screen h-screen justify-center gap-20">
-      <h1 className="text-5xl font-bold">Prochain match : {matchNumber}</h1>
+    <div className="flex flex-col items-center justify-center gap-20 p-4">
+      <h1 className="text-5xl font-bold mt-10">Prochain match : {matchNumber}</h1>
 
       <div className="flex flex-col gap-10">
         {Object.entries(buvette).map(([category, items]) => (
